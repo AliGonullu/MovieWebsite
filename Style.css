@@ -1,0 +1,67 @@
+
+
+
+.box{
+    text-align: center;
+}
+
+.bodyBG{
+    background-color: palegoldenrod;
+}
+
+
+.main_page{
+    display: flex;
+}
+
+
+h2.movie_header{
+    color: midnightblue;
+    font-weight: bold;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 25px;
+}
+
+p.movie_info{
+    font-size: 20px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 27px;
+    margin-bottom: 35px;
+    background-color: #e4da81;
+    max-width: 510px;
+    word-wrap: break-word;
+}
+
+
+.list-group-item:any-link{
+    display: flex;
+    width: 155px; 
+    background-color: #cddb8d;
+    padding: 20px;
+    color: #4b6600;
+    font-weight: bold;
+}
+
+.list-group-item ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.list-group-item li {
+    margin-bottom: 20px;
+}
+
+.list-group-item a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.list-group-item:hover {
+    background-color: #9dbe3f;
+}
